@@ -55,7 +55,7 @@ Most queries in this lab use portable SQL. In PostgreSQL, the same investigation
 ## Project Structure
 
 ```text
-SQL-lab/
+sql-support-lab/
 |-- README.md
 |-- requirements.txt
 |-- db/
