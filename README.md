@@ -52,6 +52,10 @@ The sample database uses SQLite so the project is easy to run locally. The same 
 
 Most queries in this lab use portable SQL. In PostgreSQL, the same investigations would typically run against production tables with indexed timestamp, status, and foreign-key columns. For larger datasets, I would add time-window filters, inspect query plans with `EXPLAIN`, and validate join behavior before using query results in an escalation.
 
+## Incident Walkthrough
+
+See `docs/incident_walkthrough.md` for an example of moving from a support ticket to SQL evidence, a likely cause, and a support-ready conclusion.
+
 ## Project Structure
 
 ```text
@@ -61,6 +65,7 @@ sql-support-lab/
 |-- db/
 |   `-- .gitkeep
 |-- docs/
+|   |-- incident_walkthrough.md
 |   |-- production_support_playbook.md
 |   `-- sample_support_escalation.md
 |-- queries/
